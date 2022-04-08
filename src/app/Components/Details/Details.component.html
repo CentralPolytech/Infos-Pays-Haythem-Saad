@@ -1,0 +1,27 @@
+<div class="container">
+  <div>
+    <div class="col">
+      <br>
+      <h4>
+        {{ country?.name?.common}}
+      </h4>
+      <img width="150px" height="150px"
+           class="rounded-circle"
+           src="{{ country?.flags?.png}}" alt="">
+    </div>
+    <br>
+    <table class="table table-striped">
+      <tbody>
+      <tr><td><strong>Nom: </strong> {{ country?.name?.common}}</td></tr>
+      <tr><td><strong>Capitale: </strong> {{country?.capital}}</td></tr>
+      <tr><td><strong>Region: </strong> {{country?.region}}</td></tr>
+      <tr><td><strong>Population: </strong> {{country?.population}}</td></tr>
+      <tr><td><strong>Surface: </strong> {{country?.area}}</td></tr>
+      <tr><td><strong>Langues: </strong> {{languages}}</td></tr>
+      <br><button (click)="back()" class="btn btn-primary">Retour</button>
+      </tbody>
+    </table>
+    <div>
+    </div>
+  </div>
+</div>

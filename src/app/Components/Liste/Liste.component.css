@@ -1,0 +1,15 @@
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  max-height: 556px;
+  overflow: auto;
+}
+div{
+  display: flex;
+  align-items: center;
+}
+input{
+  flex: 1;
+}

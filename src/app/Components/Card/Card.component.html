@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="card">
+    <h2 class="text-center">{{ country?.name?.common }}</h2>
+    <img src="{{ country?.flags?.png}}" alt="">
+    <div class="text-center">
+      <button (click)="goToDetails()" type="button" class="btn btn-secondary">Details</button>
+    </div>
+  </div>
+</div>
